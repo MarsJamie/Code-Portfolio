@@ -30,7 +30,33 @@ import java.util.ArrayList;
             this.toppings = toppings;
             this.size = size;
         }
-
+        
+        // Getter and Setter for crust
+    public CrustType getCrust() {
+        return crust;
+    }
+    
+    public void setCrust(CrustType crust) {
+        this.crust = crust;
+    }
+    
+    // Getter and Setter for toppings
+    public ArrayList<String> getToppings() {
+        return toppings;
+    }
+    
+    public void setToppings(ArrayList<String> toppings) {
+        this.toppings = toppings;
+    }
+    
+    // Getter and Setter for size
+    public SizeType getSize() {
+        return size;
+    }
+    
+    public void setSize(SizeType size) {
+        this.size = size;
+    }
 
     public static void main(String[] args) {
 
